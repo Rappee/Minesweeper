@@ -37,6 +37,8 @@ public class Tile {
         this.bombCount = bombCount;
     }
     
-    
+    public void incBombCount() {
+        this.bombCount++;
+    }
     
 }
